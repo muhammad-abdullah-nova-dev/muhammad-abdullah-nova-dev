@@ -128,7 +128,7 @@ A visual teaching tool for OS scheduling and deadlock detection algorithms.
 
 <br/>
 
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=muhammad-abdullah-nova-dev&theme=transparent&hide_border=true&ring=5EEAD4&fire=F0B429&currStreakLabel=5EEAD4&sideLabels=E5E9F0&currStreakNum=E5E9F0&sideNums=E5E9F0&dates=E5E9F0" width="60%" />
+<img src="https://streak-stats.demolab.com/?user=muhammad-abdullah-nova-dev&theme=transparent&hide_border=true&ring=5EEAD4&fire=F0B429&currStreakLabel=5EEAD4&sideLabels=E5E9F0&currStreakNum=E5E9F0&sideNums=E5E9F0&dates=E5E9F0" width="60%" />
 
 </div>
 
