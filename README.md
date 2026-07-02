@@ -152,7 +152,7 @@ A visual teaching tool for OS scheduling and deadlock detection algorithms.
 
 <div align="center">
 
-<img src="https://leetcode-stats-two.vercel.app/api?username=FZiFbWTBhC&theme=dark&background=00000000&border_color=1A2332&text_color=E5E9F0" />
+<img src="https://leetcode-stats-six.vercel.app/?username=FZiFbWTBhC&theme=dark" />
 
 </div>
 
@@ -161,15 +161,6 @@ A visual teaching tool for OS scheduling and deadlock detection algorithms.
 ## `07` Recent Solves
 
 <!--START_SECTION:leetcode-->
-
-| Problem | Difficulty |
-|---|---|
-| [Find a Safe Walk Through a Grid](https://leetcode.com/problems/find-a-safe-walk-through-a-grid/) | 🟡 Medium |
-| [Merge Sorted Array](https://leetcode.com/problems/merge-sorted-array/) | 🟢 Easy |
-| [Remove Element](https://leetcode.com/problems/remove-element/) | 🟢 Easy |
-| [Find a Safe Walk Through a Grid](https://leetcode.com/problems/find-a-safe-walk-through-a-grid/) | 🟡 Medium |
-| [Remove Element](https://leetcode.com/problems/remove-element/) | 🟢 Easy |
-
 <!--END_SECTION:leetcode-->
 
 <sub>⚠️ auto-updates daily via GitHub Actions — see setup below</sub>
@@ -179,6 +170,80 @@ A visual teaching tool for OS scheduling and deadlock detection algorithms.
 <div align="center">
 
 > *"Every system I build is an argument for how I think the world should work — clean, deliberate, and built to last."*
+
+<br/>
+
+<details>
+<summary><b>⚙️ One-time setup: snake animation & LeetCode auto-updates</b></summary>
+
+<br/>
+
+**Snake animation (`04` section)**
+
+1. In this repo, go to **Settings → Actions → General → Workflow permissions**, select **Read and write permissions**, save.
+2. Create `.github/workflows/snake.yml`:
+
+```yaml
+name: Generate Snake
+on:
+  schedule:
+    - cron: "0 */12 * * *"
+  workflow_dispatch: {}
+  push:
+    branches: [ main ]
+
+permissions:
+  contents: write
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: Platane/snk@v3
+        id: snake
+        with:
+          github_user_name: muhammad-abdullah-nova-dev
+          outputs: dist/github-snake-dark.svg?palette=github-dark
+      - uses: crazy-max/ghaction-github-pages@v4
+        with:
+          target_branch: output
+          build_dir: dist
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+```
+
+3. Commit, then run it once manually from the **Actions** tab (**Generate Snake → Run workflow**) so `output` branch exists immediately instead of waiting for the next scheduled run.
+
+**LeetCode auto-updates (`07` section)**
+
+1. Create `.github/workflows/leetcode.yml`:
+
+```yaml
+name: Update LeetCode Solves
+on:
+  schedule:
+    - cron: "0 0 * * *"
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: JacobLinCool/LeetCode-Markdown-Action@main
+        with:
+          username: FZiFbWTBhC
+          site: com
+```
+
+2. Run it once manually the same way, from the **Actions** tab.
+
+Both badges will look broken until their first successful run — that's expected on a new repo, not a sign anything is misconfigured.
+
+</details>
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0A0E14,50:1A2332,100:0A0E14&height=100&section=footer" width="100%"/>
 
