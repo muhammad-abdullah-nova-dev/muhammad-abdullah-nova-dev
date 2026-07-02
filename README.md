@@ -29,11 +29,11 @@
 
 ## `01` About Me
 
-I'm a Computer Science undergraduate at **FAST-NUCES**, working across the stack that most people specialize away from — one week I'm hand-rolling a Banker's Algorithm deadlock detector in C++, the next I'm shipping a seat-locking flow in Redis for a full airline booking platform. I like the parts of software most people skip: the scheduler, the precedence graph, the thing underneath the thing.
+Most of what I build starts with a question I can't let go of: *what is this actually doing underneath?* That's what pulled me into building MaqOS — an operating system simulation in C++ where I hand-rolled scheduling and process lifecycle myself instead of trusting a library — and it's the same instinct behind wiring Redis-backed seat locking into a full airline booking platform — I want the abstraction to be a choice I made, not a black box I inherited. I'm a Software Engineering undergraduate at **FAST-NUCES**, and most of my time goes to the layer other people build frameworks to avoid: the scheduler, the precedence graph, the lock that has to hold under concurrency.
 
 ```txt
 const abdullah = {
-    role: "CS Undergraduate @ FAST-NUCES",
+    role: "SE Undergraduate @ FAST-NUCES",
     focus: ["Systems Programming", "Full-Stack Dev", "Algorithms", "AI-Integrated Apps"],
     currentlyLearning: "Design & Analysis of Algorithms — CLRS, cover to cover",
     philosophy: "Understand the machine before you trust the framework"
