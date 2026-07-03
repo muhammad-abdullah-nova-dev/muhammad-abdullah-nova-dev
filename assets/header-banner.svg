@@ -1,0 +1,33 @@
+<svg width="1200" height="260" viewBox="0 0 1200 260" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0A0E14"/>
+      <stop offset="55%" stop-color="#141B26"/>
+      <stop offset="100%" stop-color="#0A0E14"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="38%" cy="45%" r="65%">
+      <stop offset="0%" stop-color="#1E2A3A" stop-opacity="0.9"/>
+      <stop offset="100%" stop-color="#0A0E14" stop-opacity="0"/>
+    </radialGradient>
+    
+    <pattern id="dotgrid" width="28" height="28" patternUnits="userSpaceOnUse">
+      <circle cx="1.5" cy="1.5" r="1.5" fill="#5EEAD4" opacity="0.14"/>
+    </pattern>
+  </defs>
+
+  <rect width="1200" height="260" fill="url(#bgGrad)"/>
+  <rect width="1200" height="260" fill="url(#glow)"/>
+  <rect width="1200" height="260" fill="url(#dotgrid)"/>
+  <rect x="0.5" y="0.5" width="1199" height="259" fill="none" stroke="#2A3441" stroke-width="1"/>
+
+  <g opacity="0.3"><path d="M 950 55 h 90.0 v -18 h 60.0" fill="none" stroke="#5EEAD4" stroke-width="1.5"/><circle cx="1100" cy="37" r="3" fill="#5EEAD4"/><circle cx="950" cy="55" r="2.5" fill="#5EEAD4"/></g><g opacity="0.3"><path d="M 1010 190 h 78.0 v -18 h 52.0" fill="none" stroke="#F0B429" stroke-width="1.5"/><circle cx="1140" cy="172" r="3" fill="#F0B429"/><circle cx="1010" cy="190" r="2.5" fill="#F0B429"/></g><g opacity="0.2"><path d="M 1060 95 h 54.0 v -18 h 36.0" fill="none" stroke="#F0729E" stroke-width="1.5"/><circle cx="1150" cy="77" r="3" fill="#F0729E"/><circle cx="1060" cy="95" r="2.5" fill="#F0729E"/></g>
+  <g transform="translate(28,28) scale(1,1)" opacity="0.55"><path d="M 0 26 L 0 0 L 26 0" fill="none" stroke="#5EEAD4" stroke-width="2"/></g><g transform="translate(1172,28) scale(-1,1)" opacity="0.55"><path d="M 0 26 L 0 0 L 26 0" fill="none" stroke="#5EEAD4" stroke-width="2"/></g><g transform="translate(28,232) scale(1,-1)" opacity="0.55"><path d="M 0 26 L 0 0 L 26 0" fill="none" stroke="#F0B429" stroke-width="2"/></g><g transform="translate(1172,232) scale(-1,-1)" opacity="0.55"><path d="M 0 26 L 0 0 L 26 0" fill="none" stroke="#F0B429" stroke-width="2"/></g>
+
+  <text x="92" y="126" font-family="JetBrains Mono, Consolas, monospace" font-size="50" xml:space="preserve">
+    <tspan fill="#5EEAD4" font-weight="700">&gt; </tspan><tspan fill="#F0B429" font-weight="700">Muhammad Abdullah</tspan><tspan fill="#5EEAD4" font-weight="700">_</tspan>
+  </text>
+
+  <text x="96" y="168" font-family="JetBrains Mono, Consolas, monospace" font-size="17" xml:space="preserve">
+    <tspan fill="#5EEAD4">// </tspan><tspan fill="#6B7686">Turning late nights and console errors into shipped systems</tspan>
+  </text>
+</svg>

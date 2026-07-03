@@ -1,0 +1,21 @@
+<svg width="1200" height="110" viewBox="0 0 1200 110" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#0A0E14"/>
+      <stop offset="50%" stop-color="#141B26"/>
+      <stop offset="100%" stop-color="#0A0E14"/>
+    </linearGradient>
+    
+    <pattern id="dotgrid" width="28" height="28" patternUnits="userSpaceOnUse">
+      <circle cx="1.5" cy="1.5" r="1.5" fill="#5EEAD4" opacity="0.10"/>
+    </pattern>
+  </defs>
+
+  <rect width="1200" height="110" fill="url(#bgGrad)"/>
+  <rect width="1200" height="110" fill="url(#dotgrid)"/>
+  <line x1="0" y1="0.5" x2="1200" y2="0.5" stroke="#2A3441" stroke-width="1"/>
+
+  <text x="92" y="61" font-family="JetBrains Mono, Consolas, monospace" font-size="18" xml:space="preserve">
+    <tspan fill="#5EEAD4" font-weight="700">abdullah</tspan><tspan fill="#6B7686">@fast-nuces</tspan><tspan fill="#F0B429">:~$ </tspan><tspan fill="#E5E9F0">echo "thanks for stopping by"</tspan>
+  </text>
+</svg>
