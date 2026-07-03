@@ -165,6 +165,15 @@ A visual teaching tool for OS scheduling and deadlock detection algorithms.
 ## `07` Recent Solves
 
 <!--START_SECTION:leetcode-->
+
+| Problem | Difficulty |
+|---|---|
+| [Find a Safe Walk Through a Grid](https://leetcode.com/problems/find-a-safe-walk-through-a-grid/) | 🟡 Medium |
+| [Merge Sorted Array](https://leetcode.com/problems/merge-sorted-array/) | 🟢 Easy |
+| [Remove Element](https://leetcode.com/problems/remove-element/) | 🟢 Easy |
+| [Find a Safe Walk Through a Grid](https://leetcode.com/problems/find-a-safe-walk-through-a-grid/) | 🟡 Medium |
+| [Remove Element](https://leetcode.com/problems/remove-element/) | 🟢 Easy |
+
 <!--END_SECTION:leetcode-->
 
 <br/>
