@@ -1,0 +1,30 @@
+name: LeetCode Stats Card
+on:
+  schedule:
+    - cron: "0 */12 * * *"
+  workflow_dispatch: {}
+  push:
+    branches: [ main ]
+
+permissions:
+  contents: write
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install requests
+      - run: python generate_leetcode_card.py
+        env:
+          LEETCODE_USERNAME: FZiFbWTBhC
+      - name: Commit if changed
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add leetcode-stats-output/card.svg
+          git diff --staged --quiet || git commit -m "chore: update leetcode stats card"
+          git push
