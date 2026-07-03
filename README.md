@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0A0E14,50:1A2332,100:0A0E14&height=200&section=header&text=Muhammad%20Abdullah&fontSize=48&fontColor=F0B429&fontAlignY=38&desc=Turning%20late%20nights%20and%20console%20errors%20into%20shipped%20systems&descAlignY=58&descSize=16&descColor=5EEAD4&animation=fadeIn" width="100%"/>
+<img src="https://raw.githubusercontent.com/muhammad-abdullah-nova-dev/muhammad-abdullah-nova-dev/main/assets/header-banner.svg" width="100%"/>
 
 <a href="https://git.io/typing-svg">
   <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=22&duration=3000&pause=1000&color=5EEAD4&center=true&vCenter=true&width=600&lines=Building+systems+from+the+kernel+up;C%2B%2B+%C2%B7+React+%C2%B7+FastAPI+%C2%B7+MySQL;Currently%3A+deep+in+CLRS+and+deadlock+graphs;Every+crash+log+is+just+a+puzzle+in+disguise" alt="Typing SVG" />
@@ -165,15 +165,6 @@ A visual teaching tool for OS scheduling and deadlock detection algorithms.
 ## `07` Recent Solves
 
 <!--START_SECTION:leetcode-->
-
-| Problem | Difficulty |
-|---|---|
-| [Find a Safe Walk Through a Grid](https://leetcode.com/problems/find-a-safe-walk-through-a-grid/) | 🟡 Medium |
-| [Merge Sorted Array](https://leetcode.com/problems/merge-sorted-array/) | 🟢 Easy |
-| [Remove Element](https://leetcode.com/problems/remove-element/) | 🟢 Easy |
-| [Find a Safe Walk Through a Grid](https://leetcode.com/problems/find-a-safe-walk-through-a-grid/) | 🟡 Medium |
-| [Remove Element](https://leetcode.com/problems/remove-element/) | 🟢 Easy |
-
 <!--END_SECTION:leetcode-->
 
 <br/>
@@ -313,6 +304,6 @@ The snake badge will look broken until its first successful run — that's expec
 
 </details>
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0A0E14,50:1A2332,100:0A0E14&height=100&section=footer" width="100%"/>
+<img src="https://raw.githubusercontent.com/muhammad-abdullah-nova-dev/muhammad-abdullah-nova-dev/main/assets/footer-banner.svg" width="100%"/>
 
 </div>
