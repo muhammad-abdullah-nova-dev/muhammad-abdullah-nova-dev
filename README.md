@@ -168,11 +168,11 @@ A visual teaching tool for OS scheduling and deadlock detection algorithms.
 
 | Problem | Difficulty |
 |---|---|
+| [Find All Numbers Disappeared in an Array](https://leetcode.com/problems/find-all-numbers-disappeared-in-an-array/) | 🟢 Easy |
+| [Product of Array Except Self](https://leetcode.com/problems/product-of-array-except-self/) | 🟡 Medium |
 | [Remove Covered Intervals](https://leetcode.com/problems/remove-covered-intervals/) | 🟡 Medium |
 | [Rotate Array](https://leetcode.com/problems/rotate-array/) | 🟡 Medium |
 | [Number of Paths with Max Score](https://leetcode.com/problems/number-of-paths-with-max-score/) | 🔴 Hard |
-| [Majority Element](https://leetcode.com/problems/majority-element/) | 🟢 Easy |
-| [Remove Duplicates from Sorted Array II](https://leetcode.com/problems/remove-duplicates-from-sorted-array-ii/) | 🟡 Medium |
 
 <!--END_SECTION:leetcode-->
 
