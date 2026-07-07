@@ -1,20 +1,20 @@
 <svg width="420" height="224" viewBox="0 0 420 224" xmlns="http://www.w3.org/2000/svg">
   <rect x="0.5" y="0.5" width="419" height="223" rx="12" fill="#1A2332" stroke="#2A3441" stroke-width="1"/>
   <text x="24" y="38" font-family="JetBrains Mono, Consolas, monospace" font-size="17" font-weight="700" fill="#F0B429">LeetCode Stats</text>
-  <text x="396" y="38" font-family="JetBrains Mono, Consolas, monospace" font-size="17" font-weight="700" fill="#E5E9F0" text-anchor="end">19 solved</text>
+  <text x="396" y="38" font-family="JetBrains Mono, Consolas, monospace" font-size="17" font-weight="700" fill="#E5E9F0" text-anchor="end">24 solved</text>
   <line x1="24" y1="52" x2="396" y2="52" stroke="#2A3441" stroke-width="1"/>
   
   <text x="24" y="92" font-family="JetBrains Mono, Consolas, monospace" font-size="13" fill="#8B95A5">Easy</text>
   <rect x="96" y="78" width="264" height="14" rx="7" fill="#2A3441"/>
-  <rect x="96" y="78" width="132.0" height="14" rx="7" fill="#5EEAD4"/>
-  <text x="396" y="91" font-family="JetBrains Mono, Consolas, monospace" font-size="13" fill="#E5E9F0" text-anchor="end">5</text>
+  <rect x="96" y="78" width="176.0" height="14" rx="7" fill="#5EEAD4"/>
+  <text x="396" y="91" font-family="JetBrains Mono, Consolas, monospace" font-size="13" fill="#E5E9F0" text-anchor="end">8</text>
   <text x="24" y="126" font-family="JetBrains Mono, Consolas, monospace" font-size="13" fill="#8B95A5">Medium</text>
   <rect x="96" y="112" width="264" height="14" rx="7" fill="#2A3441"/>
   <rect x="96" y="112" width="264.0" height="14" rx="7" fill="#F0B429"/>
-  <text x="396" y="125" font-family="JetBrains Mono, Consolas, monospace" font-size="13" fill="#E5E9F0" text-anchor="end">10</text>
+  <text x="396" y="125" font-family="JetBrains Mono, Consolas, monospace" font-size="13" fill="#E5E9F0" text-anchor="end">12</text>
   <text x="24" y="160" font-family="JetBrains Mono, Consolas, monospace" font-size="13" fill="#8B95A5">Hard</text>
   <rect x="96" y="146" width="264" height="14" rx="7" fill="#2A3441"/>
-  <rect x="96" y="146" width="105.6" height="14" rx="7" fill="#F0729E"/>
+  <rect x="96" y="146" width="88.0" height="14" rx="7" fill="#F0729E"/>
   <text x="396" y="159" font-family="JetBrains Mono, Consolas, monospace" font-size="13" fill="#E5E9F0" text-anchor="end">4</text>
-  <text x="24" y="196" font-family="JetBrains Mono, Consolas, monospace" font-size="12" fill="#8B95A5">Global rank #4,377,195</text>
+  <text x="24" y="196" font-family="JetBrains Mono, Consolas, monospace" font-size="12" fill="#8B95A5">Global rank #3,908,226</text>
 </svg>
