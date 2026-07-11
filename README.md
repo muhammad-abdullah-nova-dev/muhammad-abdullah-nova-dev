@@ -168,11 +168,11 @@ A visual teaching tool for OS scheduling and deadlock detection algorithms.
 
 | Problem | Difficulty |
 |---|---|
-| [Container With Most Water](https://leetcode.com/problems/container-with-most-water/) | 🟡 Medium |
-| [Path Existence Queries in a Graph II](https://leetcode.com/problems/path-existence-queries-in-a-graph-ii/) | 🔴 Hard |
-| [Jump Game II](https://leetcode.com/problems/jump-game-ii/) | 🟡 Medium |
-| [Jump Game](https://leetcode.com/problems/jump-game/) | 🟡 Medium |
-| [Path Existence Queries in a Graph I](https://leetcode.com/problems/path-existence-queries-in-a-graph-i/) | 🟡 Medium |
+| [Rotate Image](https://leetcode.com/problems/rotate-image/) | 🟡 Medium |
+| [Count the Number of Complete Components](https://leetcode.com/problems/count-the-number-of-complete-components/) | 🟡 Medium |
+| [H-Index](https://leetcode.com/problems/h-index/) | 🟡 Medium |
+| [Palindrome Number](https://leetcode.com/problems/palindrome-number/) | 🟢 Easy |
+| [Add Two Numbers](https://leetcode.com/problems/add-two-numbers/) | 🟡 Medium |
 
 <!--END_SECTION:leetcode-->
 
