@@ -168,11 +168,11 @@ A visual teaching tool for OS scheduling and deadlock detection algorithms.
 
 | Problem | Difficulty |
 |---|---|
-| [Rotate Image](https://leetcode.com/problems/rotate-image/) | 🟡 Medium |
-| [Count the Number of Complete Components](https://leetcode.com/problems/count-the-number-of-complete-components/) | 🟡 Medium |
-| [H-Index](https://leetcode.com/problems/h-index/) | 🟡 Medium |
-| [Palindrome Number](https://leetcode.com/problems/palindrome-number/) | 🟢 Easy |
-| [Add Two Numbers](https://leetcode.com/problems/add-two-numbers/) | 🟡 Medium |
+| [Valid Parentheses](https://leetcode.com/problems/valid-parentheses/) | 🟢 Easy |
+| [Rank Transform of an Array](https://leetcode.com/problems/rank-transform-of-an-array/) | 🟢 Easy |
+| [Fizz Buzz](https://leetcode.com/problems/fizz-buzz/) | 🟢 Easy |
+| [Valid Palindrome](https://leetcode.com/problems/valid-palindrome/) | 🟢 Easy |
+| [Two Sum](https://leetcode.com/problems/two-sum/) | 🟢 Easy |
 
 <!--END_SECTION:leetcode-->
 
