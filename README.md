@@ -168,11 +168,11 @@ A visual teaching tool for OS scheduling and deadlock detection algorithms.
 
 | Problem | Difficulty |
 |---|---|
+| [Find the Number of Subsequences With Equal GCD](https://leetcode.com/problems/find-the-number-of-subsequences-with-equal-gcd/) | 🔴 Hard |
+| [Subtract the Product and Sum of Digits of an Integer](https://leetcode.com/problems/subtract-the-product-and-sum-of-digits-of-an-integer/) | 🟢 Easy |
 | [Product of Array Except Self](https://leetcode.com/problems/product-of-array-except-self/) | 🟡 Medium |
 | [Sequential Digits](https://leetcode.com/problems/sequential-digits/) | 🟡 Medium |
 | [Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists/) | 🟢 Easy |
-| [Longest Common Prefix](https://leetcode.com/problems/longest-common-prefix/) | 🟢 Easy |
-| [Integer to Roman](https://leetcode.com/problems/integer-to-roman/) | 🟡 Medium |
 
 <!--END_SECTION:leetcode-->
 
