@@ -168,11 +168,11 @@ A visual teaching tool for OS scheduling and deadlock detection algorithms.
 
 | Problem | Difficulty |
 |---|---|
-| [Roman to Integer](https://leetcode.com/problems/roman-to-integer/) | 🟢 Easy |
+| [Integer to Roman](https://leetcode.com/problems/integer-to-roman/) | 🟡 Medium |
+| [Find Greatest Common Divisor of Array](https://leetcode.com/problems/find-greatest-common-divisor-of-array/) | 🟢 Easy |
 | [Sum of GCD of Formed Pairs](https://leetcode.com/problems/sum-of-gcd-of-formed-pairs/) | 🟡 Medium |
-| [Trapping Rain Water](https://leetcode.com/problems/trapping-rain-water/) | 🔴 Hard |
-| [Ugly Number](https://leetcode.com/problems/ugly-number/) | 🟢 Easy |
-| [Max Consecutive Ones](https://leetcode.com/problems/max-consecutive-ones/) | 🟢 Easy |
+| [Roman to Integer](https://leetcode.com/problems/roman-to-integer/) | 🟢 Easy |
+| [Sorted GCD Pair Queries](https://leetcode.com/problems/sorted-gcd-pair-queries/) | 🔴 Hard |
 
 <!--END_SECTION:leetcode-->
 
