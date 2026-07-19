@@ -168,11 +168,11 @@ A visual teaching tool for OS scheduling and deadlock detection algorithms.
 
 | Problem | Difficulty |
 |---|---|
-| [Integer to Roman](https://leetcode.com/problems/integer-to-roman/) | 🟡 Medium |
-| [Find Greatest Common Divisor of Array](https://leetcode.com/problems/find-greatest-common-divisor-of-array/) | 🟢 Easy |
-| [Sum of GCD of Formed Pairs](https://leetcode.com/problems/sum-of-gcd-of-formed-pairs/) | 🟡 Medium |
-| [Roman to Integer](https://leetcode.com/problems/roman-to-integer/) | 🟢 Easy |
-| [Sorted GCD Pair Queries](https://leetcode.com/problems/sorted-gcd-pair-queries/) | 🔴 Hard |
+| [Minimum Number of String Groups Through Transformations](https://leetcode.com/problems/minimum-number-of-string-groups-through-transformations/) | 🔴 Hard |
+| [Transform Binary String Using Subsequence Sort](https://leetcode.com/problems/transform-binary-string-using-subsequence-sort/) | 🟡 Medium |
+| [Count Dominant Nodes in a Binary Tree](https://leetcode.com/problems/count-dominant-nodes-in-a-binary-tree/) | 🟡 Medium |
+| [Even Number of Knight Moves](https://leetcode.com/problems/even-number-of-knight-moves/) | 🟢 Easy |
+| [Longest Common Prefix](https://leetcode.com/problems/longest-common-prefix/) | 🟢 Easy |
 
 <!--END_SECTION:leetcode-->
 
