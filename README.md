@@ -168,11 +168,11 @@ A visual teaching tool for OS scheduling and deadlock detection algorithms.
 
 | Problem | Difficulty |
 |---|---|
+| [Shift 2D Grid](https://leetcode.com/problems/shift-2d-grid/) | 🟢 Easy |
+| [Reverse Words in a String](https://leetcode.com/problems/reverse-words-in-a-string/) | 🟡 Medium |
 | [Minimum Number of String Groups Through Transformations](https://leetcode.com/problems/minimum-number-of-string-groups-through-transformations/) | 🔴 Hard |
 | [Transform Binary String Using Subsequence Sort](https://leetcode.com/problems/transform-binary-string-using-subsequence-sort/) | 🟡 Medium |
 | [Count Dominant Nodes in a Binary Tree](https://leetcode.com/problems/count-dominant-nodes-in-a-binary-tree/) | 🟡 Medium |
-| [Even Number of Knight Moves](https://leetcode.com/problems/even-number-of-knight-moves/) | 🟢 Easy |
-| [Longest Common Prefix](https://leetcode.com/problems/longest-common-prefix/) | 🟢 Easy |
 
 <!--END_SECTION:leetcode-->
 
