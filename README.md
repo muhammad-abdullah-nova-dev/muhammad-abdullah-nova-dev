@@ -168,11 +168,11 @@ A visual teaching tool for OS scheduling and deadlock detection algorithms.
 
 | Problem | Difficulty |
 |---|---|
-| [Shift 2D Grid](https://leetcode.com/problems/shift-2d-grid/) | 🟢 Easy |
-| [Reverse Words in a String](https://leetcode.com/problems/reverse-words-in-a-string/) | 🟡 Medium |
-| [Minimum Number of String Groups Through Transformations](https://leetcode.com/problems/minimum-number-of-string-groups-through-transformations/) | 🔴 Hard |
-| [Transform Binary String Using Subsequence Sort](https://leetcode.com/problems/transform-binary-string-using-subsequence-sort/) | 🟡 Medium |
-| [Count Dominant Nodes in a Binary Tree](https://leetcode.com/problems/count-dominant-nodes-in-a-binary-tree/) | 🟡 Medium |
+| [Zigzag Conversion](https://leetcode.com/problems/zigzag-conversion/) | 🟡 Medium |
+| [Maximize Active Section with Trade I](https://leetcode.com/problems/maximize-active-section-with-trade-i/) | 🟡 Medium |
+| [Minimum Cost to Convert String III](https://leetcode.com/problems/minimum-cost-to-convert-string-iii/) | 🔴 Hard |
+| [Minimum Adjacent Swaps to Partition Array](https://leetcode.com/problems/minimum-adjacent-swaps-to-partition-array/) | 🟡 Medium |
+| [Maximum Value of an Alternating Sequence](https://leetcode.com/problems/maximum-value-of-an-alternating-sequence/) | 🟡 Medium |
 
 <!--END_SECTION:leetcode-->
 
