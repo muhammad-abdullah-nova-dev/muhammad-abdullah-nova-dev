@@ -168,11 +168,11 @@ A visual teaching tool for OS scheduling and deadlock detection algorithms.
 
 | Problem | Difficulty |
 |---|---|
+| [Text Justification](https://leetcode.com/problems/text-justification/) | 🔴 Hard |
+| [Number of Unique XOR Triplets I](https://leetcode.com/problems/number-of-unique-xor-triplets-i/) | 🟡 Medium |
 | [Find the Index of the First Occurrence in a String](https://leetcode.com/problems/find-the-index-of-the-first-occurrence-in-a-string/) | 🟢 Easy |
 | [Maximize Active Section with Trade II](https://leetcode.com/problems/maximize-active-section-with-trade-ii/) | 🔴 Hard |
 | [Zigzag Conversion](https://leetcode.com/problems/zigzag-conversion/) | 🟡 Medium |
-| [Maximize Active Section with Trade I](https://leetcode.com/problems/maximize-active-section-with-trade-i/) | 🟡 Medium |
-| [Minimum Cost to Convert String III](https://leetcode.com/problems/minimum-cost-to-convert-string-iii/) | 🔴 Hard |
 
 <!--END_SECTION:leetcode-->
 
