@@ -35,12 +35,14 @@
 
 ## `01` About Me
 
-Most of what I build starts with a question I can't let go of: *what is this actually doing underneath?* That's what pulled me into building MaqOS — an operating system simulation in C++ where I hand-rolled scheduling and process lifecycle myself instead of trusting a library — and it's the same instinct behind wiring Redis-backed seat locking into a full airline booking platform — I want the abstraction to be a choice I made, not a black box I inherited. I'm a Software Engineering undergraduate at **FAST-NUCES**, and most of my time goes to the layer other people build frameworks to avoid: the scheduler, the precedence graph, the lock that has to hold under concurrency.
+Most of what I build starts with a question I can't let go of: *what is this actually doing underneath?* That's what pulled me into building MaqOS — an operating system simulation in C++ where I hand-rolled scheduling and process lifecycle myself instead of trusting a library — and it's the same instinct behind wiring Redis-backed seat locking into a full airline booking platform, or pointing a regression model at 18k car listings until the residuals stopped lying to me. I want the abstraction to be a choice I made, not a black box I inherited.
+
+I'm a Software Engineering undergraduate at **FAST-NUCES**, and most of my time splits across three layers most people are happy to leave to a framework: systems (schedulers, process lifecycles, precedence graphs), data (cleaning it, modeling it, being honest about what the R² actually means), and full-stack product work (the kind where a Redis TTL bug at 2am teaches you more about concurrency than a lecture ever will). I've also started shipping AI into that stack directly — wiring Gemini into a real interview-feedback pipeline, not just calling an API and calling it a day.
 
 ```txt
 const abdullah = {
     role: "SE Undergraduate @ FAST-NUCES",
-    focus: ["Systems Programming", "Full-Stack Dev", "Algorithms", "AI-Integrated Apps"],
+    focus: ["Systems Programming", "Full-Stack Dev", "AI-Integrated Apps", "Applied ML"],
     currentlyLearning: "Design & Analysis of Algorithms — CLRS, cover to cover",
     philosophy: "Understand the machine before you trust the framework"
 };
@@ -66,6 +68,20 @@ Full-stack airline management SaaS — booking, seat locking, payments, boarding
 </td>
 <td width="50%" valign="top">
 
+### 🧠 HireMind AI
+AI-powered mock interview platform — role-specific question generation, real-time feedback, and interview analytics.
+
+**Stack:** Next.js 14 · TypeScript · PostgreSQL · Drizzle ORM · Gemini Pro API · Clerk
+
+- Generates interview questions dynamically from job role, description, and experience level
+- Speech-to-text answer capture feeding a Gemini-driven feedback engine (score + improvements)
+- Husky-enforced pre-commit checks (ESLint, Prettier, type-check) and a CI pipeline on every push
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
 ### 🖥️ MaqOS
 An operating system simulation built from the ground up in C++ with SFML for real-time visualization.
 
@@ -76,8 +92,31 @@ An operating system simulation built from the ground up in C++ with SFML for rea
 - Hand-debugged race conditions and memory issues at the systems level
 
 </td>
+<td width="50%" valign="top">
+
+### 🚗 Ford Used Car Price Prediction
+Regression pipeline predicting UK resale prices for 17,966 Ford listings, shipped with a live prediction site.
+
+**Stack:** Python · Pandas · NumPy · Scikit-learn · Matplotlib · Seaborn
+
+- Linear Regression + One-Hot Encoding — R² 0.840, RMSE £1,900, 5-fold CV std < 0.01
+- 22-visualization EDA pass with residual analysis and learning curves to rule out overfitting
+- Auto-extracts the notebook into a 10-page live site with an interactive prediction form → [ford-car-price-prediction.vercel.app](https://ford-car-price-prediction.vercel.app)
+
+</td>
 </tr>
 <tr>
+<td width="50%" valign="top">
+
+### 🔀 Process Scheduler & Deadlock Visualizer
+A visual teaching tool for OS scheduling and deadlock detection algorithms.
+
+**Stack:** Python · SVG
+
+- Priority Queue + Round Robin scheduling, visualized step by step
+- Resource Allocation Graph deadlock detection rendered as live SVG
+
+</td>
 <td width="50%" valign="top">
 
 ### 🏛️ Toshakhana Dashboard
@@ -89,15 +128,18 @@ Interactive data dashboard analyzing two decades of public gift-registry records
 - Filterable, chart-driven views for exploring records by year and category
 
 </td>
-<td width="50%" valign="top">
+</tr>
+<tr>
+<td colspan="2" valign="top">
 
-### 🔀 Process Scheduler & Deadlock Visualizer
-A visual teaching tool for OS scheduling and deadlock detection algorithms.
+### 🔧 NexusFlow
+A UI/UX and enterprise-feature layer built on top of Flowise's open-source AI-workflow engine.
 
-**Stack:** Python · SVG
+**Stack:** React · TypeScript · Material-UI · React Flow · Node.js/Express · PostgreSQL · Redis
 
-- Priority Queue + Round Robin scheduling, visualized step by step
-- Resource Allocation Graph deadlock detection rendered as live SVG
+- Redesigned dashboard, navigation, and theme-customization system on top of Flowise's existing visual flow builder and multi-LLM node architecture
+- Maintains full compatibility with upstream Flowise workflows while focused on UX polish and enterprise auth/RBAC groundwork
+- Built as a PNPM/Turbo monorepo with its own Docker Compose setup and load-testing config (Artillery)
 
 </td>
 </tr>
@@ -121,10 +163,19 @@ A visual teaching tool for OS scheduling and deadlock detection algorithms.
 
 <img src="https://skillicons.dev/icons?i=nodejs,express,fastapi,sequelize,mysql,postgres,redis&theme=dark" />
 <img src="https://img.shields.io/badge/Stripe-5851DD?style=for-the-badge&logo=stripe&logoColor=white" height="48" />
+<img src="https://img.shields.io/badge/Drizzle_ORM-C5F74F?style=for-the-badge&logo=drizzle&logoColor=1A2332" height="48" />
+
+**AI & Applied ML**
+
+<img src="https://img.shields.io/badge/Gemini_API-F0B429?style=for-the-badge&logo=googlegemini&logoColor=0A0E14" height="48" />
+<img src="https://img.shields.io/badge/Scikit--learn-5EEAD4?style=for-the-badge&logoColor=0A0E14" height="48" />
+<img src="https://img.shields.io/badge/Pandas-F0729E?style=for-the-badge&logoColor=0A0E14" height="48" />
+<img src="https://img.shields.io/badge/NumPy-1A2332?style=for-the-badge&logoColor=5EEAD4" height="48" />
 
 **Tools & Platforms**
 
-<img src="https://skillicons.dev/icons?i=git,github,vscode,linux,figma,jira&theme=dark" />
+<img src="https://skillicons.dev/icons?i=git,github,vscode,linux,figma,jira,docker&theme=dark" />
+<img src="https://img.shields.io/badge/GitHub_Actions-1A2332?style=for-the-badge&logo=githubactions&logoColor=5EEAD4" height="48" />
 
 </div>
 
