@@ -219,11 +219,11 @@ A UI/UX and enterprise-feature layer built on top of Flowise's open-source AI-wo
 
 | Problem | Difficulty |
 |---|---|
+| [Find the Lexicographically Smallest Valid Sequence](https://leetcode.com/problems/find-the-lexicographically-smallest-valid-sequence/) | 🟡 Medium |
 | [Smallest Divisible Digit Product II](https://leetcode.com/problems/smallest-divisible-digit-product-ii/) | 🔴 Hard |
 | [Smallest Divisible Digit Product I](https://leetcode.com/problems/smallest-divisible-digit-product-i/) | 🟢 Easy |
 | [Remove Methods From Project](https://leetcode.com/problems/remove-methods-from-project/) | 🟡 Medium |
 | [Find Missing Elements](https://leetcode.com/problems/find-missing-elements/) | 🟢 Easy |
-| [Stone Game III](https://leetcode.com/problems/stone-game-iii/) | 🔴 Hard |
 
 <!--END_SECTION:leetcode-->
 
