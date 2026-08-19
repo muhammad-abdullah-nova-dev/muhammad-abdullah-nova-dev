@@ -219,11 +219,11 @@ A UI/UX and enterprise-feature layer built on top of Flowise's open-source AI-wo
 
 | Problem | Difficulty |
 |---|---|
+| [Minimum Window Substring](https://leetcode.com/problems/minimum-window-substring/) | 🔴 Hard |
+| [Find the Largest Almost Missing Integer](https://leetcode.com/problems/find-the-largest-almost-missing-integer/) | 🟢 Easy |
 | [Substring with Concatenation of All Words](https://leetcode.com/problems/substring-with-concatenation-of-all-words/) | 🔴 Hard |
 | [Stone Game V](https://leetcode.com/problems/stone-game-v/) | 🔴 Hard |
 | [Stone Game IX](https://leetcode.com/problems/stone-game-ix/) | 🟡 Medium |
-| [Longest Subsequence With Non-Zero Bitwise XOR](https://leetcode.com/problems/longest-subsequence-with-non-zero-bitwise-xor/) | 🟡 Medium |
-| [Maximum Length Substring With Two Occurrences](https://leetcode.com/problems/maximum-length-substring-with-two-occurrences/) | 🟢 Easy |
 
 <!--END_SECTION:leetcode-->
 
