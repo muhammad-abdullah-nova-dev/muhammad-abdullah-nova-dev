@@ -35,14 +35,14 @@
 
 ## `01` About Me
 
-Most of what I build starts with a question I can't let go of: *what is this actually doing underneath?* That's what pulled me into building MaqOS — an operating system simulation in C++ where I hand-rolled scheduling and process lifecycle myself instead of trusting a library — and it's the same instinct behind wiring Redis-backed seat locking into a full airline booking platform, or pointing a regression model at 18k car listings until the residuals stopped lying to me. I want the abstraction to be a choice I made, not a black box I inherited.
+Most of what I build starts with a question I can't let go of: *what is this actually doing underneath?* That's what pulled me into building MaqOS — an operating system simulation in C++ where I hand-rolled scheduling and process lifecycle myself instead of trusting a library — and it's the same instinct behind SkyNet ATC, where every core data structure (hash table, min-heap, AVL tree, graph routing) is written from scratch instead of pulled from `std::`. Lately that instinct has pointed at computer vision: real-time hand tracking, gesture recognition, and background segmentation running at 30+ FPS, with a properly tested pipeline behind it rather than a notebook demo.
 
-I'm a Software Engineering undergraduate at **FAST-NUCES**, and most of my time splits across three layers most people are happy to leave to a framework: systems (schedulers, process lifecycles, precedence graphs), data (cleaning it, modeling it, being honest about what the R² actually means), and full-stack product work (the kind where a Redis TTL bug at 2am teaches you more about concurrency than a lecture ever will). I've also started shipping AI into that stack directly — wiring Gemini into a real interview-feedback pipeline, not just calling an API and calling it a day.
+I'm a Software Engineering undergraduate at **FAST-NUCES**, and most of my time splits across four layers most people are happy to leave to a framework: systems (schedulers, process lifecycles, precedence graphs), computer vision (temporal modeling, gesture pipelines, real-time compositing), full-stack product work (the kind where a Redis TTL bug at 2am teaches you more about concurrency than a lecture ever will), and applied ML/data (cleaning it, modeling it, being honest about what the R² actually means). AI is now a first-class part of that stack too — wiring Gemini into a real interview-feedback pipeline, or FLUX diffusion into a gesture-driven AR workspace, not just calling an API and calling it a day.
 
 ```txt
 const abdullah = {
     role: "SE Undergraduate @ FAST-NUCES",
-    focus: ["Systems Programming", "Full-Stack Dev", "AI-Integrated Apps", "Applied ML"],
+    focus: ["Computer Vision", "Systems Programming", "Full-Stack Dev", "AI-Integrated Apps", "Applied ML"],
     currentlyLearning: "Design & Analysis of Algorithms — CLRS, cover to cover",
     philosophy: "Understand the machine before you trust the framework"
 };
@@ -56,6 +56,47 @@ const abdullah = {
 <tr>
 <td width="50%" valign="top">
 
+### 👻 Ghost — Invisibility Mode
+Real-time computer-vision invisibility system: temporal background modeling, silhouette segmentation, and confidence-aware compositing, with five distinct "cybernetic ghost" render modes.
+
+**Stack:** Python · OpenCV · MediaPipe · NumPy
+
+- Time-based alpha transitions (`VISIBLE → FADING_OUT → INVISIBLE → FADING_IN`) decoupled from framerate
+- Multi-gesture control (pinch, open palm, fist, swipe) with temporal debouncing
+- Live HUD showing mask confidence, background quality, and per-stage latency
+- 57 passing tests backing the pipeline
+
+</td>
+<td width="50%" valign="top">
+
+### 🖐️ HandFrame AI
+Gesture-driven AR workspace — track hands with MediaPipe, frame a region of your webcam feed with a two-hand gesture, then restyle it instantly with OpenCV or a cloud diffusion model.
+
+**Stack:** Python · OpenCV · MediaPipe · fal.ai (FLUX.2)
+
+- 1-Euro filter smoothing on hand landmarks to kill high-frequency jitter
+- Gesture engine resolves pinch lifecycles, swipes, and holds into discrete intents
+- Async architecture keeps 30+ FPS camera throughput while diffusion calls run in the background
+- 55 passing tests
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+### ✍️ InkFlow
+Real-time collaborative text editor with CRDT-based conflict-free sync, live cursors, and sub-50ms latency over WebSockets.
+
+**Stack:** React · TypeScript · Yjs · Django Channels · Redis
+
+- Yjs CRDT sync means concurrent edits merge without a central lock or "last write wins" data loss
+- Live user-presence indicators and per-collaborator cursor tracking
+- Django Channels + Daphne backend broadcasting over WebSockets
+- Deployed: [inkflow-teal.vercel.app](https://inkflow-teal.vercel.app/)
+
+</td>
+<td width="50%" valign="top">
+
 ### ✈️ AeroNova Airlines
 Full-stack airline management SaaS — booking, seat locking, payments, boarding passes, end to end.
 
@@ -66,6 +107,36 @@ Full-stack airline management SaaS — booking, seat locking, payments, boarding
 - PDFKit-generated boarding passes on successful payment
 
 </td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+### 📚 Aurelis
+Grading and performance-tracking platform for teaching assistants, with separate TA, student, and read-only teacher views.
+
+**Stack:** HTML5 · CSS3 · Vanilla JS · Supabase (PostgreSQL)
+
+- Class links for self-service student enrollment with a TA approval workflow
+- Bulk quiz grading with automated email notifications when marks post
+- No-login, token-based read access for teachers monitoring class analytics
+- Deployed: [Vercel](https://aurelis-student-performance-platfor.vercel.app/) · [GitHub Pages](https://muhammad-abdullah-nova-dev.github.io/aurelis-student-performance-platform/)
+
+</td>
+<td width="50%" valign="top">
+
+### 🎓 Student Attendance & Result Portal
+Full-stack academic portal with three role-based dashboards and live updates.
+
+**Stack:** Node.js · Express · MySQL · Socket.IO · JWT
+
+- Admin, Teacher, and Student portals on a shared REST API
+- Bulk attendance marking and batch result uploads for teachers
+- Socket.IO pushes live updates to every portal with no page refresh
+- PDF report export and low-attendance alerting
+
+</td>
+</tr>
+<tr>
 <td width="50%" valign="top">
 
 ### 🧠 HireMind AI
@@ -76,6 +147,18 @@ AI-powered mock interview platform — role-specific question generation, real-t
 - Generates interview questions dynamically from job role, description, and experience level
 - Speech-to-text answer capture feeding a Gemini-driven feedback engine (score + improvements)
 - Husky-enforced pre-commit checks (ESLint, Prettier, type-check) and a CI pipeline on every push
+
+</td>
+<td width="50%" valign="top">
+
+### 🛰️ SkyNet ATC
+Real-time air traffic control simulator where every core data structure is hand-rolled — no `std::unordered_map`, no `std::priority_queue`.
+
+**Stack:** C++ · Qt
+
+- Hash table (aircraft registry), min-heap (landing priority), AVL tree (flight log), graph + Dijkstra (routing) — all built from scratch
+- 25×25 radar grid rendered live in a custom Qt `QWidget`
+- Mid-flight emergency declarations jump an aircraft to the front of the landing queue in real time
 
 </td>
 </tr>
@@ -108,29 +191,17 @@ Regression pipeline predicting UK resale prices for 17,966 Ford listings, shippe
 <tr>
 <td width="50%" valign="top">
 
-### 🔀 Process Scheduler & Deadlock Visualizer
-A visual teaching tool for OS scheduling and deadlock detection algorithms.
+### ⚒️ TechForge
+A daily-growing, structured technical knowledge base — programming fundamentals through OOP, DSA, OS, full-stack, APIs, AI, and data science — built for interview-grade recall, not scattered notes.
 
-**Stack:** Python · SVG
+**Stack:** Markdown knowledge system
 
-- Priority Queue + Round Robin scheduling, visualized step by step
-- Resource Allocation Graph deadlock detection rendered as live SVG
+- Deliberate learning progression across 11 domains, each building on the last
+- Every entry optimized to be explainable clearly under interview pressure
+- Structured for daily, compounding additions rather than one-off dumps
 
 </td>
 <td width="50%" valign="top">
-
-### 🏛️ Toshakhana Dashboard
-Interactive data dashboard analyzing two decades of public gift-registry records.
-
-**Stack:** JavaScript · Chart.js
-
-- 4,214 records spanning 2002–2022, cleaned and structured for analysis
-- Filterable, chart-driven views for exploring records by year and category
-
-</td>
-</tr>
-<tr>
-<td colspan="2" valign="top">
 
 ### 🔧 NexusFlow
 A UI/UX and enterprise-feature layer built on top of Flowise's open-source AI-workflow engine.
@@ -155,26 +226,30 @@ A UI/UX and enterprise-feature layer built on top of Flowise's open-source AI-wo
 
 <img src="https://skillicons.dev/icons?i=cpp,c,python,js,ts,html,css,java&theme=dark" />
 
+**Computer Vision & AI**
+
+<img src="https://skillicons.dev/icons?i=opencv&theme=dark" />
+<img src="https://img.shields.io/badge/MediaPipe-00897B?style=for-the-badge&logo=google&logoColor=white" height="48" />
+<img src="https://img.shields.io/badge/Gemini_API-F0B429?style=for-the-badge&logo=googlegemini&logoColor=0A0E14" height="48" />
+<img src="https://img.shields.io/badge/fal.ai_FLUX-FF3366?style=for-the-badge&logoColor=white" height="48" />
+<img src="https://img.shields.io/badge/Scikit--learn-5EEAD4?style=for-the-badge&logoColor=0A0E14" height="48" />
+<img src="https://img.shields.io/badge/Pandas-F0729E?style=for-the-badge&logoColor=0A0E14" height="48" />
+<img src="https://img.shields.io/badge/NumPy-1A2332?style=for-the-badge&logoColor=5EEAD4" height="48" />
+
 **Frontend**
 
 <img src="https://skillicons.dev/icons?i=react,nextjs,vite,tailwind&theme=dark" />
 
 **Backend & Data**
 
-<img src="https://skillicons.dev/icons?i=nodejs,express,fastapi,sequelize,mysql,postgres,redis&theme=dark" />
+<img src="https://skillicons.dev/icons?i=nodejs,express,fastapi,django,sequelize,mysql,postgres,redis&theme=dark" />
 <img src="https://img.shields.io/badge/Stripe-5851DD?style=for-the-badge&logo=stripe&logoColor=white" height="48" />
 <img src="https://img.shields.io/badge/Drizzle_ORM-C5F74F?style=for-the-badge&logo=drizzle&logoColor=1A2332" height="48" />
-
-**AI & Applied ML**
-
-<img src="https://img.shields.io/badge/Gemini_API-F0B429?style=for-the-badge&logo=googlegemini&logoColor=0A0E14" height="48" />
-<img src="https://img.shields.io/badge/Scikit--learn-5EEAD4?style=for-the-badge&logoColor=0A0E14" height="48" />
-<img src="https://img.shields.io/badge/Pandas-F0729E?style=for-the-badge&logoColor=0A0E14" height="48" />
-<img src="https://img.shields.io/badge/NumPy-1A2332?style=for-the-badge&logoColor=5EEAD4" height="48" />
+<img src="https://img.shields.io/badge/Supabase-3ECF8E?style=for-the-badge&logo=supabase&logoColor=0A0E14" height="48" />
 
 **Tools & Platforms**
 
-<img src="https://skillicons.dev/icons?i=git,github,vscode,linux,figma,jira,docker&theme=dark" />
+<img src="https://skillicons.dev/icons?i=git,github,vscode,linux,figma,jira,docker,qt&theme=dark" />
 <img src="https://img.shields.io/badge/GitHub_Actions-1A2332?style=for-the-badge&logo=githubactions&logoColor=5EEAD4" height="48" />
 
 </div>
