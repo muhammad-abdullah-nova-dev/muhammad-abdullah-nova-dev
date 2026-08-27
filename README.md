@@ -56,19 +56,6 @@ const abdullah = {
 <tr>
 <td width="50%" valign="top">
 
-### 👻 Ghost — Invisibility Mode
-Real-time computer-vision invisibility system: temporal background modeling, silhouette segmentation, and confidence-aware compositing, with five distinct "cybernetic ghost" render modes.
-
-**Stack:** Python · OpenCV · MediaPipe · NumPy
-
-- Time-based alpha transitions (`VISIBLE → FADING_OUT → INVISIBLE → FADING_IN`) decoupled from framerate
-- Multi-gesture control (pinch, open palm, fist, swipe) with temporal debouncing
-- Live HUD showing mask confidence, background quality, and per-stage latency
-- 57 passing tests backing the pipeline
-
-</td>
-<td width="50%" valign="top">
-
 ### 🖐️ HandFrame AI
 Gesture-driven AR workspace — track hands with MediaPipe, frame a region of your webcam feed with a two-hand gesture, then restyle it instantly with OpenCV or a cloud diffusion model.
 
@@ -78,21 +65,6 @@ Gesture-driven AR workspace — track hands with MediaPipe, frame a region of yo
 - Gesture engine resolves pinch lifecycles, swipes, and holds into discrete intents
 - Async architecture keeps 30+ FPS camera throughput while diffusion calls run in the background
 - 55 passing tests
-
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
-
-### ✍️ InkFlow
-Real-time collaborative text editor with CRDT-based conflict-free sync, live cursors, and sub-50ms latency over WebSockets.
-
-**Stack:** React · TypeScript · Yjs · Django Channels · Redis
-
-- Yjs CRDT sync means concurrent edits merge without a central lock or "last write wins" data loss
-- Live user-presence indicators and per-collaborator cursor tracking
-- Django Channels + Daphne backend broadcasting over WebSockets
-- Deployed: [inkflow-teal.vercel.app](https://inkflow-teal.vercel.app/)
 
 </td>
 <td width="50%" valign="top">
@@ -124,15 +96,14 @@ Grading and performance-tracking platform for teaching assistants, with separate
 </td>
 <td width="50%" valign="top">
 
-### 🎓 Student Attendance & Result Portal
-Full-stack academic portal with three role-based dashboards and live updates.
+### 🛰️ SkyNet ATC
+Real-time air traffic control simulator where every core data structure is hand-rolled — no `std::unordered_map`, no `std::priority_queue`.
 
-**Stack:** Node.js · Express · MySQL · Socket.IO · JWT
+**Stack:** C++ · Qt
 
-- Admin, Teacher, and Student portals on a shared REST API
-- Bulk attendance marking and batch result uploads for teachers
-- Socket.IO pushes live updates to every portal with no page refresh
-- PDF report export and low-attendance alerting
+- Hash table (aircraft registry), min-heap (landing priority), AVL tree (flight log), graph + Dijkstra (routing) — all built from scratch
+- 25×25 radar grid rendered live in a custom Qt `QWidget`
+- Mid-flight emergency declarations jump an aircraft to the front of the landing queue in real time
 
 </td>
 </tr>
@@ -151,32 +122,6 @@ AI-powered mock interview platform — role-specific question generation, real-t
 </td>
 <td width="50%" valign="top">
 
-### 🛰️ SkyNet ATC
-Real-time air traffic control simulator where every core data structure is hand-rolled — no `std::unordered_map`, no `std::priority_queue`.
-
-**Stack:** C++ · Qt
-
-- Hash table (aircraft registry), min-heap (landing priority), AVL tree (flight log), graph + Dijkstra (routing) — all built from scratch
-- 25×25 radar grid rendered live in a custom Qt `QWidget`
-- Mid-flight emergency declarations jump an aircraft to the front of the landing queue in real time
-
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
-
-### 🖥️ MaqOS
-An operating system simulation built from the ground up in C++ with SFML for real-time visualization.
-
-**Stack:** C++ · SFML
-
-- Simulates core OS concepts: scheduling, memory, process lifecycle
-- Real-time rendered visualization of internal system state
-- Hand-debugged race conditions and memory issues at the systems level
-
-</td>
-<td width="50%" valign="top">
-
 ### 🚗 Ford Used Car Price Prediction
 Regression pipeline predicting UK resale prices for 17,966 Ford listings, shipped with a live prediction site.
 
@@ -191,14 +136,15 @@ Regression pipeline predicting UK resale prices for 17,966 Ford listings, shippe
 <tr>
 <td width="50%" valign="top">
 
-### ⚒️ TechForge
-A daily-growing, structured technical knowledge base — programming fundamentals through OOP, DSA, OS, full-stack, APIs, AI, and data science — built for interview-grade recall, not scattered notes.
+### ✍️ InkFlow
+Real-time collaborative text editor with CRDT-based conflict-free sync, live cursors, and sub-50ms latency over WebSockets.
 
-**Stack:** Markdown knowledge system
+**Stack:** React · TypeScript · Yjs · Django Channels · Redis
 
-- Deliberate learning progression across 11 domains, each building on the last
-- Every entry optimized to be explainable clearly under interview pressure
-- Structured for daily, compounding additions rather than one-off dumps
+- Yjs CRDT sync means concurrent edits merge without a central lock or "last write wins" data loss
+- Live user-presence indicators and per-collaborator cursor tracking
+- Django Channels + Daphne backend broadcasting over WebSockets
+- Deployed: [inkflow-teal.vercel.app](https://inkflow-teal.vercel.app/)
 
 </td>
 <td width="50%" valign="top">
