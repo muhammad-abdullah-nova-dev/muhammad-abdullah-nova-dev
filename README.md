@@ -240,11 +240,11 @@ A UI/UX and enterprise-feature layer built on top of Flowise's open-source AI-wo
 
 | Problem | Difficulty |
 |---|---|
+| [Lexicographically Smallest Palindromic Permutation Greater Than Target](https://leetcode.com/problems/lexicographically-smallest-palindromic-permutation-greater-than-target/) | 🔴 Hard |
+| [Lexicographically Smallest Permutation Greater Than Target](https://leetcode.com/problems/lexicographically-smallest-permutation-greater-than-target/) | 🟡 Medium |
 | [Valid Sudoku](https://leetcode.com/problems/valid-sudoku/) | 🟡 Medium |
 | [Smallest Missing Multiple of K](https://leetcode.com/problems/smallest-missing-multiple-of-k/) | 🟢 Easy |
 | [Shortest and Lexicographically Smallest Beautiful String](https://leetcode.com/problems/shortest-and-lexicographically-smallest-beautiful-string/) | 🟡 Medium |
-| [Stone Game VIII](https://leetcode.com/problems/stone-game-viii/) | 🔴 Hard |
-| [Sum Game](https://leetcode.com/problems/sum-game/) | 🟡 Medium |
 
 <!--END_SECTION:leetcode-->
 
