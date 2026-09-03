@@ -240,11 +240,11 @@ A UI/UX and enterprise-feature layer built on top of Flowise's open-source AI-wo
 
 | Problem | Difficulty |
 |---|---|
+| [Construct Uniform Parity Array I](https://leetcode.com/problems/construct-uniform-parity-array-i/) | 🟢 Easy |
 | [Minimum Moves to Clean the Classroom](https://leetcode.com/problems/minimum-moves-to-clean-the-classroom/) | 🟡 Medium |
 | [Find the Minimum and Maximum Number of Nodes Between Critical Points](https://leetcode.com/problems/find-the-minimum-and-maximum-number-of-nodes-between-critical-points/) | 🟡 Medium |
 | [Removing Minimum and Maximum From Array](https://leetcode.com/problems/removing-minimum-and-maximum-from-array/) | 🟡 Medium |
 | [Minimum Operations to Form Subset Sum I](https://leetcode.com/problems/minimum-operations-to-form-subset-sum-i/) | 🟡 Medium |
-| [Sum of Decoded Numbers](https://leetcode.com/problems/sum-of-decoded-numbers/) | 🟡 Medium |
 
 <!--END_SECTION:leetcode-->
 
