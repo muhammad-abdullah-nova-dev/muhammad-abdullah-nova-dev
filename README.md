@@ -240,11 +240,11 @@ A UI/UX and enterprise-feature layer built on top of Flowise's open-source AI-wo
 
 | Problem | Difficulty |
 |---|---|
-| [Smallest Stable Index I](https://leetcode.com/problems/smallest-stable-index-i/) | 🟢 Easy |
-| [Construct Uniform Parity Array II](https://leetcode.com/problems/construct-uniform-parity-array-ii/) | 🟡 Medium |
-| [Construct Uniform Parity Array I](https://leetcode.com/problems/construct-uniform-parity-array-i/) | 🟢 Easy |
-| [Minimum Moves to Clean the Classroom](https://leetcode.com/problems/minimum-moves-to-clean-the-classroom/) | 🟡 Medium |
-| [Find the Minimum and Maximum Number of Nodes Between Critical Points](https://leetcode.com/problems/find-the-minimum-and-maximum-number-of-nodes-between-critical-points/) | 🟡 Medium |
+| [Count Robot Groups](https://leetcode.com/problems/count-robot-groups/) | 🟡 Medium |
+| [Minimum Cost Path With At Most K Turns](https://leetcode.com/problems/minimum-cost-path-with-at-most-k-turns/) | 🔴 Hard |
+| [Count Robot Groups](https://leetcode.com/problems/count-robot-groups/) | 🟡 Medium |
+| [Count Good Cyclic Rotations](https://leetcode.com/problems/count-good-cyclic-rotations/) | 🟡 Medium |
+| [Count Rotations With Exactly K Equal Adjacent Pairs](https://leetcode.com/problems/count-rotations-with-exactly-k-equal-adjacent-pairs/) | 🟢 Easy |
 
 <!--END_SECTION:leetcode-->
 
