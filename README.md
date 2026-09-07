@@ -240,11 +240,11 @@ A UI/UX and enterprise-feature layer built on top of Flowise's open-source AI-wo
 
 | Problem | Difficulty |
 |---|---|
+| [Distinct Subsequences](https://leetcode.com/problems/distinct-subsequences/) | 🔴 Hard |
 | [Count Robot Groups](https://leetcode.com/problems/count-robot-groups/) | 🟡 Medium |
 | [Minimum Cost Path With At Most K Turns](https://leetcode.com/problems/minimum-cost-path-with-at-most-k-turns/) | 🔴 Hard |
 | [Count Robot Groups](https://leetcode.com/problems/count-robot-groups/) | 🟡 Medium |
 | [Count Good Cyclic Rotations](https://leetcode.com/problems/count-good-cyclic-rotations/) | 🟡 Medium |
-| [Count Rotations With Exactly K Equal Adjacent Pairs](https://leetcode.com/problems/count-rotations-with-exactly-k-equal-adjacent-pairs/) | 🟢 Easy |
 
 <!--END_SECTION:leetcode-->
 
