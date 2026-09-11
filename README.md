@@ -240,11 +240,11 @@ A UI/UX and enterprise-feature layer built on top of Flowise's open-source AI-wo
 
 | Problem | Difficulty |
 |---|---|
+| [Count Nodes Equal to Average of Subtree](https://leetcode.com/problems/count-nodes-equal-to-average-of-subtree/) | 🟡 Medium |
+| [Unique 3-Digit Even Numbers](https://leetcode.com/problems/unique-3-digit-even-numbers/) | 🟢 Easy |
 | [Count Commas in Range II](https://leetcode.com/problems/count-commas-in-range-ii/) | 🟡 Medium |
 | [Count Commas in Range](https://leetcode.com/problems/count-commas-in-range/) | 🟢 Easy |
 | [Distinct Subsequences II](https://leetcode.com/problems/distinct-subsequences-ii/) | 🔴 Hard |
-| [Distinct Subsequences](https://leetcode.com/problems/distinct-subsequences/) | 🔴 Hard |
-| [Count Robot Groups](https://leetcode.com/problems/count-robot-groups/) | 🟡 Medium |
 
 <!--END_SECTION:leetcode-->
 
