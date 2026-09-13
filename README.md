@@ -240,11 +240,11 @@ A UI/UX and enterprise-feature layer built on top of Flowise's open-source AI-wo
 
 | Problem | Difficulty |
 |---|---|
+| [Image Overlap](https://leetcode.com/problems/image-overlap/) | 🟡 Medium |
+| [Count Shadow Pairs I](https://leetcode.com/problems/count-shadow-pairs-i/) | 🟡 Medium |
+| [Minimum Operations to Make Every Element Palindromic](https://leetcode.com/problems/minimum-operations-to-make-every-element-palindromic/) | 🟡 Medium |
+| [Cyclically Shift Rows and Columns](https://leetcode.com/problems/cyclically-shift-rows-and-columns/) | 🟢 Easy |
 | [Maximum Score of Non-overlapping Intervals](https://leetcode.com/problems/maximum-score-of-non-overlapping-intervals/) | 🔴 Hard |
-| [Count Nodes Equal to Average of Subtree](https://leetcode.com/problems/count-nodes-equal-to-average-of-subtree/) | 🟡 Medium |
-| [Unique 3-Digit Even Numbers](https://leetcode.com/problems/unique-3-digit-even-numbers/) | 🟢 Easy |
-| [Count Commas in Range II](https://leetcode.com/problems/count-commas-in-range-ii/) | 🟡 Medium |
-| [Count Commas in Range](https://leetcode.com/problems/count-commas-in-range/) | 🟢 Easy |
 
 <!--END_SECTION:leetcode-->
 
