@@ -240,11 +240,11 @@ A UI/UX and enterprise-feature layer built on top of Flowise's open-source AI-wo
 
 | Problem | Difficulty |
 |---|---|
+| [Rectangle Overlap](https://leetcode.com/problems/rectangle-overlap/) | 🟢 Easy |
 | [Image Overlap](https://leetcode.com/problems/image-overlap/) | 🟡 Medium |
 | [Count Shadow Pairs I](https://leetcode.com/problems/count-shadow-pairs-i/) | 🟡 Medium |
 | [Minimum Operations to Make Every Element Palindromic](https://leetcode.com/problems/minimum-operations-to-make-every-element-palindromic/) | 🟡 Medium |
 | [Cyclically Shift Rows and Columns](https://leetcode.com/problems/cyclically-shift-rows-and-columns/) | 🟢 Easy |
-| [Maximum Score of Non-overlapping Intervals](https://leetcode.com/problems/maximum-score-of-non-overlapping-intervals/) | 🔴 Hard |
 
 <!--END_SECTION:leetcode-->
 
