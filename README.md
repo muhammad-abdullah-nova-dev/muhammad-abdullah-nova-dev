@@ -240,11 +240,11 @@ A UI/UX and enterprise-feature layer built on top of Flowise's open-source AI-wo
 
 | Problem | Difficulty |
 |---|---|
-| [Find Two Non-overlapping Sub-arrays Each With Target Sum](https://leetcode.com/problems/find-two-non-overlapping-sub-arrays-each-with-target-sum/) | 🟡 Medium |
-| [Number of Sets of K Non-Overlapping Line Segments](https://leetcode.com/problems/number-of-sets-of-k-non-overlapping-line-segments/) | 🟡 Medium |
-| [Maximum Number of Non-overlapping Palindrome Substrings](https://leetcode.com/problems/maximum-number-of-non-overlapping-palindrome-substrings/) | 🔴 Hard |
-| [Rectangle Overlap](https://leetcode.com/problems/rectangle-overlap/) | 🟢 Easy |
-| [Image Overlap](https://leetcode.com/problems/image-overlap/) | 🟡 Medium |
+| [Reverse Degree of a String](https://leetcode.com/problems/reverse-degree-of-a-string/) | 🟢 Easy |
+| [Lexicographically Largest Power Array](https://leetcode.com/problems/lexicographically-largest-power-array/) | 🔴 Hard |
+| [Maximum Pulse Value After One Subarray Rotation](https://leetcode.com/problems/maximum-pulse-value-after-one-subarray-rotation/) | 🟡 Medium |
+| [Number of Intersecting Interval Pairs II](https://leetcode.com/problems/number-of-intersecting-interval-pairs-ii/) | 🟡 Medium |
+| [Number of Intersecting Interval Pairs I](https://leetcode.com/problems/number-of-intersecting-interval-pairs-i/) | 🟢 Easy |
 
 <!--END_SECTION:leetcode-->
 
