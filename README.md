@@ -240,11 +240,11 @@ A UI/UX and enterprise-feature layer built on top of Flowise's open-source AI-wo
 
 | Problem | Difficulty |
 |---|---|
+| [Find X Value of Array I](https://leetcode.com/problems/find-x-value-of-array-i/) | 🟡 Medium |
 | [Reverse Degree of a String](https://leetcode.com/problems/reverse-degree-of-a-string/) | 🟢 Easy |
 | [Lexicographically Largest Power Array](https://leetcode.com/problems/lexicographically-largest-power-array/) | 🔴 Hard |
 | [Maximum Pulse Value After One Subarray Rotation](https://leetcode.com/problems/maximum-pulse-value-after-one-subarray-rotation/) | 🟡 Medium |
 | [Number of Intersecting Interval Pairs II](https://leetcode.com/problems/number-of-intersecting-interval-pairs-ii/) | 🟡 Medium |
-| [Number of Intersecting Interval Pairs I](https://leetcode.com/problems/number-of-intersecting-interval-pairs-i/) | 🟢 Easy |
 
 <!--END_SECTION:leetcode-->
 
