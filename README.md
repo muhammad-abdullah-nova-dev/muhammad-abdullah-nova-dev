@@ -240,11 +240,11 @@ A UI/UX and enterprise-feature layer built on top of Flowise's open-source AI-wo
 
 | Problem | Difficulty |
 |---|---|
+| [Smallest Index With Digit Sum Equal to Index](https://leetcode.com/problems/smallest-index-with-digit-sum-equal-to-index/) | 🟢 Easy |
 | [Minimum Operations to Reduce X to Zero](https://leetcode.com/problems/minimum-operations-to-reduce-x-to-zero/) | 🟡 Medium |
 | [Find X Value of Array II](https://leetcode.com/problems/find-x-value-of-array-ii/) | 🔴 Hard |
 | [Find X Value of Array I](https://leetcode.com/problems/find-x-value-of-array-i/) | 🟡 Medium |
 | [Reverse Degree of a String](https://leetcode.com/problems/reverse-degree-of-a-string/) | 🟢 Easy |
-| [Lexicographically Largest Power Array](https://leetcode.com/problems/lexicographically-largest-power-array/) | 🔴 Hard |
 
 <!--END_SECTION:leetcode-->
 
