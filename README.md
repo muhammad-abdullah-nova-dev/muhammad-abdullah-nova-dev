@@ -240,11 +240,11 @@ A UI/UX and enterprise-feature layer built on top of Flowise's open-source AI-wo
 
 | Problem | Difficulty |
 |---|---|
+| [Remove Invalid Parentheses](https://leetcode.com/problems/remove-invalid-parentheses/) | 🔴 Hard |
 | [Minimum Add to Make Parentheses Valid](https://leetcode.com/problems/minimum-add-to-make-parentheses-valid/) | 🟡 Medium |
 | [Score of Parentheses](https://leetcode.com/problems/score-of-parentheses/) | 🟡 Medium |
 | [Valid Parenthesis String](https://leetcode.com/problems/valid-parenthesis-string/) | 🟡 Medium |
 | [Count Good Strings](https://leetcode.com/problems/count-good-strings/) | 🔴 Hard |
-| [Maximum Alternating Subarray Sum With One Deletion](https://leetcode.com/problems/maximum-alternating-subarray-sum-with-one-deletion/) | 🟡 Medium |
 
 <!--END_SECTION:leetcode-->
 
