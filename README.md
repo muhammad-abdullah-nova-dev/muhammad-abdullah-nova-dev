@@ -240,10 +240,11 @@ A UI/UX and enterprise-feature layer built on top of Flowise's open-source AI-wo
 
 | Problem | Difficulty |
 |---|---|
-| [Minimum Sum of Squared Difference](https://leetcode.com/problems/minimum-sum-of-squared-difference/) | 🟡 Medium |
-| [Minimum Insertions to Balance a Parentheses String](https://leetcode.com/problems/minimum-insertions-to-balance-a-parentheses-string/) | 🟡 Medium |
-| [Remove Outermost Parentheses](https://leetcode.com/problems/remove-outermost-parentheses/) | 🟢 Easy |
-| [Remove Invalid Parentheses](https://leetcode.com/problems/remove-invalid-parentheses/) | 🔴 Hard |
+| [Sum of Squares of Special Elements ](https://leetcode.com/problems/sum-of-squares-of-special-elements/) | 🟢 Easy |
+| [Prime Subset Selection II](https://leetcode.com/problems/prime-subset-selection-ii/) | 🔴 Hard |
+| [Design Bus Seat Booking System](https://leetcode.com/problems/design-bus-seat-booking-system/) | 🟡 Medium |
+| [Prime Subset Selection I](https://leetcode.com/problems/prime-subset-selection-i/) | 🟡 Medium |
+| [Three Fibonacci Sum](https://leetcode.com/problems/three-fibonacci-sum/) | 🟢 Easy |
 
 <!--END_SECTION:leetcode-->
 
