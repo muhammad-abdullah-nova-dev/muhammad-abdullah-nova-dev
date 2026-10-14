@@ -240,11 +240,11 @@ A UI/UX and enterprise-feature layer built on top of Flowise's open-source AI-wo
 
 | Problem | Difficulty |
 |---|---|
+| [Maximize Sum of Squares of Digits](https://leetcode.com/problems/maximize-sum-of-squares-of-digits/) | 🟡 Medium |
+| [Maximum Alternating Sum of Squares](https://leetcode.com/problems/maximum-alternating-sum-of-squares/) | 🟡 Medium |
 | [Apply Operations on Array to Maximize Sum of Squares](https://leetcode.com/problems/apply-operations-on-array-to-maximize-sum-of-squares/) | 🔴 Hard |
 | [Sum of Squares of Special Elements ](https://leetcode.com/problems/sum-of-squares-of-special-elements/) | 🟢 Easy |
 | [Prime Subset Selection II](https://leetcode.com/problems/prime-subset-selection-ii/) | 🔴 Hard |
-| [Design Bus Seat Booking System](https://leetcode.com/problems/design-bus-seat-booking-system/) | 🟡 Medium |
-| [Prime Subset Selection I](https://leetcode.com/problems/prime-subset-selection-i/) | 🟡 Medium |
 
 <!--END_SECTION:leetcode-->
 
