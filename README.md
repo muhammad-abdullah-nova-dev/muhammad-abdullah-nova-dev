@@ -240,11 +240,11 @@ A UI/UX and enterprise-feature layer built on top of Flowise's open-source AI-wo
 
 | Problem | Difficulty |
 |---|---|
-| [Count Days Spent Together](https://leetcode.com/problems/count-days-spent-together/) | 🟢 Easy |
-| [Minimum Operations to Sort a Permutation](https://leetcode.com/problems/minimum-operations-to-sort-a-permutation/) | 🟡 Medium |
-| [Minimum Operations to Sort a String](https://leetcode.com/problems/minimum-operations-to-sort-a-string/) | 🟡 Medium |
-| [Sum of Sortable Integers](https://leetcode.com/problems/sum-of-sortable-integers/) | 🔴 Hard |
-| [Find Target Indices After Sorting Array](https://leetcode.com/problems/find-target-indices-after-sorting-array/) | 🟢 Easy |
+| [Count Frequency Staircase Subarrays II](https://leetcode.com/problems/count-frequency-staircase-subarrays-ii/) | 🔴 Hard |
+| [Count Frequency Staircase Subarrays I](https://leetcode.com/problems/count-frequency-staircase-subarrays-i/) | 🟡 Medium |
+| [Maximize Sum After At Most K Digit Rearrangements](https://leetcode.com/problems/maximize-sum-after-at-most-k-digit-rearrangements/) | 🟡 Medium |
+| [Binary Digit Score](https://leetcode.com/problems/binary-digit-score/) | 🟢 Easy |
+| [Count Magical Substring Pairs II](https://leetcode.com/problems/count-magical-substring-pairs-ii/) | 🔴 Hard |
 
 <!--END_SECTION:leetcode-->
 
