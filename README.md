@@ -240,11 +240,11 @@ A UI/UX and enterprise-feature layer built on top of Flowise's open-source AI-wo
 
 | Problem | Difficulty |
 |---|---|
+| [Minimum Moves to Equal Array Elements](https://leetcode.com/problems/minimum-moves-to-equal-array-elements/) | 🟡 Medium |
 | [Count Frequency Staircase Subarrays II](https://leetcode.com/problems/count-frequency-staircase-subarrays-ii/) | 🔴 Hard |
 | [Count Frequency Staircase Subarrays I](https://leetcode.com/problems/count-frequency-staircase-subarrays-i/) | 🟡 Medium |
 | [Maximize Sum After At Most K Digit Rearrangements](https://leetcode.com/problems/maximize-sum-after-at-most-k-digit-rearrangements/) | 🟡 Medium |
 | [Binary Digit Score](https://leetcode.com/problems/binary-digit-score/) | 🟢 Easy |
-| [Count Magical Substring Pairs II](https://leetcode.com/problems/count-magical-substring-pairs-ii/) | 🔴 Hard |
 
 <!--END_SECTION:leetcode-->
 
